@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>強風切菜</title>
+		<script src=Animetion.js></script>
+		<link href="Animetion.css" rel="stylesheet">
+		<audio id="loopMe" preload>
+			<source src="data/BGM.wav" type="audio/wav">
+			<script>
+				document.getElementById("loopMe").loop = true;
+			</script>
+		</audio>
+	</head>
+	<body onclick="showCoords(event)">
+		<div>
+			<img src="data/Yuki0.png" id="Yuki" class="Yuki">
+			<input type=hidden value=0 id="YukiAction">
+		</div>
+		<div id=Vegetable0>
+			<img src="data/V0L.png" id="Vegetable0L" class="LVegetable" onclick=VegetableOnClick(this) style="top:600">
+			<img src="data/V0R.png" id="Vegetable0R" class="RVegetable" onclick=VegetableOnClick(this) style="top:600">
+			<input type=hidden value=0 id="V0">
+		</div>
+		<div id=Vegetable1>
+			<img src="data/V0L.png" id="Vegetable1L" class="LVegetable" onclick=VegetableOnClick(this) style="top:6000">
+			<img src="data/V0R.png" id="Vegetable1R" class="RVegetable" onclick=VegetableOnClick(this) style="top:6000">
+			<input type=hidden value=0 id="V1">
+		</div>
+		<div id=Vegetable2>
+			<img src="data/V0L.png" id="Vegetable2L" class="LVegetable" onclick=VegetableOnClick(this) style="top:6000">
+			<img src="data/V0R.png" id="Vegetable2R" class="RVegetable" onclick=VegetableOnClick(this) style="top:6000">
+			<input type=hidden value=0 id="V2">
+		</div>
+		<div>
+			<h1 id=Score>---</h1>
+		</div-->
+	</body>
+</html>

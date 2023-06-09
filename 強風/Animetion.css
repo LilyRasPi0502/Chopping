@@ -1,0 +1,30 @@
+.RVegetable{
+	position: absolute;
+	z-index: 5;
+	left: 100;
+}
+.LVegetable{
+	position: absolute;
+	z-index: 1;
+	left: 100;
+}
+
+.Yuki{
+	position: absolute;
+	z-index: 2;
+}
+div{
+	position: absolute;
+}
+.VegetableDiv{
+	position: absolute;
+}
+body{
+	background-color: rgb(243, 226, 88);
+}
+h1{
+	font-weight:bold;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
